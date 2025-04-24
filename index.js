@@ -464,7 +464,7 @@ window.doLimiteByfile_data = function ()
 
 
     var stack = 2;
-    if (v.thread != undefined && v.thread > 0 && v.thread < 16)
+    if (v.thread != undefined && v.thread > 0)
     {
         stack = v.thread;
     }
